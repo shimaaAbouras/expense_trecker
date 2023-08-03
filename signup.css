@@ -1,0 +1,153 @@
+
+     body
+     {
+     background-image: url(img/img.webp);
+     background-position: center;
+     background-size: cover;
+     height: 90vh;
+     display:flex;
+     backdrop-filter:blur(3px);
+     margin: -30px; padding: 0;
+     }
+     img#logo {
+       width: 55px;
+       margin-top: 5px;
+       float:left;
+     }
+     .topbar
+     {
+     margin-left: 92px;
+     width: 1100px;
+     height: 65px;
+     background: radial-gradient(rgba(255,255,255,0.6));
+     box-shadow: 0 0 10px rgba(0,0,0,0.6);
+     border-radius :20px;
+     backdrop-filter:blur(3px);
+     
+     }
+     nav
+     {
+       display: flex;
+       padding: 1px 1%;
+     }
+     .logo
+       {
+     
+         color: rgba(211, 58, 135, 0.774);
+         float: left;
+        text-transform: uppercase;
+        padding-inline-start:3px;
+           align-items: center;
+           padding:1px 1%;
+       }
+     nav ul li
+     {
+       list-style: none;
+       display: inline-block;
+       
+     }
+     
+     nav ul li a
+     {
+       text-decoration: none;
+       color:rgba(88, 79, 84, 0.616);
+       transition: 0.2s ease;
+      
+        
+     }
+     
+     nav ul li a:hover
+     {
+       color: rgb(199, 158, 204);
+       
+
+     }
+.form-box
+{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgba(255, 255,2550.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+ 
+.form-box h2
+{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+}
+.form-box .input-box
+{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 3px solid rgba(141, 36, 118, 0.397); 
+}
+.form-box .input-box input
+{
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px  0 5px;
+    color: #630e42;
+    font-size: 16px;
+}
+
+input::placeholder
+{
+    color: #66636388;
+}
+inputbox ion-icon
+{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top:20px;
+
+}
+.btn
+{
+    color: #fff;
+    background: rgba(141, 36, 118, 0.397);
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow:3px 0 10px rgba(122, 3, 3, 0.5);
+}
+
+.button
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+footer {
+	width: 100%;
+	height: 50px;
+	background: #ccc;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+
